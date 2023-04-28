@@ -220,6 +220,11 @@ nav ul li a:hover {
   border-radius: 10px;
   margin-bottom: 50px;
 }
+.small:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
 
 .imagenew {
   border-radius: 5px;
