@@ -1,0 +1,316 @@
+body {
+  background: url("./img/headerback.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* height: 1134px; */
+}
+.wrapper {
+  max-width: 1434px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+}
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  /* width: 1134px; */
+  top: 36px;
+  z-index: 100;
+}
+.logo {
+  color: #e13c52;
+  margin-right: 100px;
+  /* position: fixed; */
+  /* z-index: 100; */
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 66px;
+  list-style: none;
+  margin-right: 300px;
+  margin-top: 0;
+}
+.search {
+  margin-left: 510px;
+  padding: 10px 90px;
+  border-radius: 4px;
+  background-color: #121111;
+  padding-left: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+nav ul li a:hover {
+  /* background: #e13c52; */
+  /* border-radius: 60px; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding: 10px 34px; */
+  color: blue;
+}
+.btn {
+  width: 238px;
+  height: 48px;
+  background: #e13c52;
+  text-decoration: none;
+  border-radius: 60px;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  padding: 10px 34px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.hero-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  color: #ffffff;
+}
+.universe {
+  font-weight: 900;
+  font-size: 34px;
+}
+
+.recomend {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.card {
+  height: 260px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(214, 207, 207);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1534px;
+  margin: 0 auto;
+}
+.card img {
+  border-radius: 25px;
+}
+.card:hover img {
+  transform: scale(1.1) rotate(0deg);
+  width: 420px;
+  height: 350px;
+  transition: 0.7s ease-in-out;
+}
+.card h1 {
+  visibility: hidden;
+  opacity: 0;
+}
+.intro {
+  height: 200px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
+  bottom: 240px;
+}
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-13%);
+  width: 700px;
+  height: 500px;
+  transition: 0.7s ease;
+}
+.card:hover .intro {
+  height: 220px;
+  width: 400px;
+  bottom: 640px;
+  background: black;
+}
+.card:hover h1 {
+  opacity: 1;
+  visibility: visible;
+}
+.watch {
+  background: #e13c52;
+  border-radius: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 34px;
+  border: none;
+  color: white;
+}
+.adding {
+  margin-top: 75px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 117px;
+  background: #000000;
+  border: 1px solid #848484;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.add {
+  text-align: end;
+  margin-right: 12px;
+}
+.flex {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 55px;
+}
+.recomend1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.recomend2 {
+  font-family: "Ubuntu";
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.newmovies {
+  display: flex;
+  justify-content: center;
+  max-width: 1534px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.small {
+  width: 170px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.imagenew {
+  border-radius: 5px;
+  width: 200px;
+}
+.anothercard {
+  display: flex;
+  justify-content: center;
+  max-width: 1534px;
+  margin: 0 auto;
+  gap: 45px;
+}
+
+footer {
+  background: black;
+  color: white;
+  /* max-width: 1434px; */
+  /* margin: 0 auto; */
+}
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 190px;
+}
+
+.listitemsign {
+  margin-left: 500px;
+}
+.facebook {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.insta {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.face {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.you {
+  width: 60px;
+  border-radius: 50%;
+}
+.footerimages {
+  margin-top: 30px;
+}
+.texts {
+  display: flex;
+  gap: 26px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #616161;
+  padding-top: 70px;
+}
+.served {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #616161;
+}
+
+.person {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #797979;
+}
+
+ul{
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-col{
+  /* width: 55%; */
+  padding: 0 15px;
+}
+.footer-col h3:hover{
+  color: #fff;
+  padding-left: 10px;
+  transition: 0.3s ease-in-out;
+}
